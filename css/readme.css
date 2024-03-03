@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+}
+
+
+.profile-photo {
+    width: 113px; 
+    height: 113px;
+    background-color: #f0f0f0; 
+}
+
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 10pt;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    background-color: #fff;
+    position: relative;
+
+    padding: 40px
+}
+.cv-document {
+            width: 21cm; /* Chiều rộng của khung A4 */
+            height: 29.7cm; /* Chiều cao của khung A4 */
+            margin: auto; /* Canh giữa */
+            padding: 1cm; /* Phần lề */
+            overflow: auto; /* Cuộn nội dung khi cần */
+        }
